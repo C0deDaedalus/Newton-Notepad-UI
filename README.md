@@ -20,5 +20,5 @@ It's **`not an iplementation of a text-editor in browser`**. Though you can crea
 Maybe you can use it as a Clipboard or Note taking for a while in browser.
 
 ### Have fun with it.
-You are Open to Fork this Repository and further create a fully functional Browser Based Text-Editor.
+You are Welcomed to Fork this Repository and further create a fully functional Browser Based Text-Editor.
 Please Notify me If anyone is working for it.
