@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Newton Notepad</title>
+        <link rel="stylesheet" type="text/css" href="editor.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="titlebar">
+            <span><br>&nbsp; <img src="editor_logo.ico" alt="logo" style="width:60px;height:60px;"></span>
+            <span id="title">Newton Notepad</span>
+            <span></span>
+        </div>
+        <span>
+            <ul style="list-style-type:none;">
+                <li><img src="open_new_heart_icon.png" alt="new" style="width:40px;height:40px;"></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">File</a>
+                    <div class="dropdown-content">
+                        <a href="#">New&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+N</a>
+                        <a href="#">Open&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+O</a>
+                        <a href="#">Save&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+S</a>
+                        <a href="#">Print&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+P</a>
+                        <a href="#">Export</a>
+                        <a href="#">Exit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+Q</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Edit</a>
+                    <div class="dropdown-content">
+                        <a href="#">Cut&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+X</a>
+                        <a href="#">Copy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+C</a>
+                        <a href="#">Paste&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+V</a>
+                        <a href="#">Find&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+F</a>
+                        <a href="#">Replace&nbsp;&nbsp;&nbsp;Ctrl+H</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">View</a>
+                    <div class="dropdown-content">
+                        <a href="#">Show Active</a>
+                        <a href="#">Quick Open&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+Alt+O</a>
+                        <a href="#">Split Views</a>
+                        <a href="#">Enlarge Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Ctrl++</a>
+                        <a href="#">Shrink Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+-</a>
+                        <a href="#">Schema</a>
+                        <a href="#">Word Wrap&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                                              &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;F10</a>
+                        <a href="#">Show Non-Printable Spaces</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Tools</a>
+                    <div class="dropdown-content">
+                        <a href="#">Mode</a>
+                        <a href="#">Highlighting</a>
+                        <a href="#">Indentation</a>
+                        <a href="#">Scripts</a>
+                        <a href="#">Word Completion</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Help</a>
+                    <div class="dropdown-content">
+                        <a href="#">Handbook</a>
+                        <a href="#">What's This?</a>
+                        <a href="#">Report Bug ...</a>
+                        <a href="#">About</a>
+                    </div>
+                </li>
+            </ul>
+        </span>
+        <textarea name="text" rows="40px" cols="158px" placeholder="Got any Idea! Something to Write. Get Started Now!"/></textarea>
+        <div class="toolbar">&nbsp;
+            <input type="color" value="font-color" />
+            <select name="font-type">
+                <option value="Arial">Arial</option>
+                <option value="Bookman Old Style">Bookman Old Style</option>
+                <option value="Calibri">Calibri</option>
+                <option value="Comic Sans">Comic Sans</option>
+                <option value="Cooper Black">Cooper Black</option>
+                <option value="Lucida Sans">Lucida Sans</option>
+                <option value="Monotype Corsiva">Monotype Corsiva</option>
+                <option value="Terminal">Terminal</option>
+                <option value="Times New Roman" selected="selected">Times New roman</option>
+                <option value="Ubuntu Mono">Ubuntu Mono</option>
+            </select>
+            <select name="font-decoration-type">
+                <option value="bold">Bold</option>
+                <option value="italics">Italics</option>
+                <option value="underline">Underline</option>
+                <option value="overline">Overline</option>
+                <option value="strike">Strikethrough</option>
+                <option value="mark">Marked</option>
+            </select>
+            <input name="font-size" type="number" min="6" max="72" placeholder="12" />
+            <button type="button" value="theme-select" onclick="prompt('Select a Theme','BlueSky')">Theme | BlueSky</button>
+        </div>
+    </body>
+</html>

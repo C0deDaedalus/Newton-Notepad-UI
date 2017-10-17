@@ -1,0 +1,125 @@
+
+body{ 
+    width:99.7%;
+    height:100%;
+    background-color:mintcream;
+    margin:0 auto;
+    padding:0rem;
+    border:2px solid black;
+}
+
+.titlebar{
+    background-color:#66d9ff;
+    height:84px;
+}
+
+img { 
+    padding:3px;
+    float:left;
+    cursor:pointer;
+}
+
+#title {
+    font-size:50px;
+    font-family: 'Lobster', cursive;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+    
+}
+
+li { 
+    float: left;
+    
+}
+
+li a, .dropbtn { 
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover, .dropdown:hover .dropbtn { 
+    background-color:#66d9ff;
+    color:black;
+    font-size:18px;
+    
+}
+
+li.dropdown { 
+    display: inline-block;
+    
+}
+
+.dropdown-content { 
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a { 
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+    
+}
+
+.dropdown:hover .dropdown-content { display: block; }
+
+textarea {
+    border:2px solid #66d9ff;
+    width:99.55%;
+    height:100vw;
+    resize:vertical;
+    /*font-size:25px;
+    font-family: 'Lobster', cursive;*/
+}
+
+.toolbar  { background-color:#000;}
+
+select, button { 
+    background-color: transparent;
+    border: none;
+    color: #66d9ff;
+    padding:5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button { 
+    float:right;
+    margin:4px;
+}
+
+select:hover, button:hover { color:#777; }
+
+
+input {
+    background-color: transparent;
+    color: #66d9ff;
+    border:none;
+    padding:5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
