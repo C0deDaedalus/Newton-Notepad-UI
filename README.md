@@ -7,9 +7,12 @@ It's a kind of design template featuring Simple Text Editor with :
 
 1. Blue-Black Theme
 2. Simple Titlebar & Dropdown Menubar
+   ![Menu Dropdowns in action](https://github.com/C0deDaedalus/Newton-Notepad-UI/blob/master/newton-notepad-ui1.gif "Menu Dropdowns")
 3. Heart Icon (at beginning of MenuBar) as New Tab Shortcut.
 4. Vertically Resizable Textarea
+    ![Vertically Resizable TextArea](https://github.com/C0deDaedalus/Newton-Notepad-UI/blob/master/newton-notepad-ui2.gif "Vertically Resizable TextArea")
 5. BottomBar is used as a ToolBar to provide necessary text formatting options.
+    ![ToolBar in action](https://github.com/C0deDaedalus/Newton-Notepad-UI/blob/master/newton-notepad-ui3.gif "Toolbar")
 6. Theme Picker at the bottom right.
 7. Much interseting things on the way.
 
