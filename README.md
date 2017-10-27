@@ -1,4 +1,4 @@
-# Netwon-Notepad
+# Netwon Notepad UI
 A **`minimal User Interface`** for **Browser Based Text Editor** . 
 
 ## What it is
