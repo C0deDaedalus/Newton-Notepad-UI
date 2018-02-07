@@ -1,4 +1,4 @@
-# Netwon Notepad UI
+# Newton Notepad UI
 A **`minimal User Interface`** for **Browser Based Text Editor** . 
 
 ## What NOT It is
